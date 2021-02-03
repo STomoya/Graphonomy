@@ -1,13 +1,15 @@
 
 import os
 import glob
+
 from tqdm import tqdm
+import torch
 
 from networks import deeplab_xception_transfer
 from exp.inference.inference import inference
 
 images = glob.glob('/usr/src/data/modanet/images/*')
-print('total images :'. len(images))
+print('total images :', len(images))
 
 net = deeplab_xception_transfer.deeplab_xception_transfer_projection_savemem(n_classes=20,
                                                                                 hidden_layers=128,
