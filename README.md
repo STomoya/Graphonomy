@@ -1,3 +1,9 @@
+
+# models
+
+- [CIHP](https://drive.google.com/file/d/1eUe18HoH05p0yFUd_sN6GXdTj82aW0m9/view)
+- [PASCAL](https://drive.google.com/file/d/1E_V_gVDWfAJFPfe-LLu2RQaYQMdhjv9h/view)
+
 # Graphonomy: Universal Human Parsing via Graph Transfer Learning
 
 This repository contains the code for the paper:
