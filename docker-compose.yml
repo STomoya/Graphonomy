@@ -9,6 +9,7 @@ services:
       - NVIDIA_DRIVER_CAPABILITIES=all
     volumes:
       - .:/usr/src
+      - /mnt/D/Data/modanet:/usr/src/data/modanet
     working_dir: /usr/src
     tty: true
     shm_size: '2gb'
